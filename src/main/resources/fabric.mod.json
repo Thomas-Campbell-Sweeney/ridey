@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "ridey",
+  "version": "1.0.0",
+  "name": "Ridey",
+  "description": "A server-side Pokémon riding mod for Cobblemon",
+  "authors": ["Your Name"],
+  "contact": {},
+  "license": "All Rights Reserved",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "net.ahcho.ridey.Ridey"
+    ]
+  },
+  "mixins": [
+    "ridey.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": ">=1.20.1",
+    "java": ">=17",
+    "cobblemon": ">=1.4.0"
+  }
+}
